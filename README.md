@@ -16,9 +16,11 @@ And finally, once the Server responds with “Server masterserver ready” - wit
 
 Now the client and server applications are running, go to your web browser and navigate to the following URLs:
 >localhost:8080
+
 This is the main text “File Upload” page for the system. You can select a file to upload, give it a name, and select which tasks you would like to perform. To perform tasks on a jpg file, use the “Swap to JPG” button on the top of the page.
 
 >localhost:8080/files
+
 This page displays a list of the files currently in the system and allows users to retrieve the files in a different format. The downloaded files are stored in the “./Client/downloads” folder. “raw” downloads the files in their original, processed formats, “xml” allows the download of the results of the text tasks as an xml file format. 
 
- >Written in Java with in-line HTML and CSS.
+ Written in Java with in-line HTML and CSS.
